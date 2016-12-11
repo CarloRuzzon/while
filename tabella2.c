@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main(){
-	int n=0, c=0;
-	while(n<15){
-		n+=3;
-		c++;
-		printf("%d\t%d\t%d\t%d\n", n, n+2, n+4, n+6);
+	int a=0;
+	while(a<15){
+		a+=3;
+		printf("%d\t%d\t%d\t%d\n", a, a+2, a+4, a+6);
 	}
 	return 0;
 }
