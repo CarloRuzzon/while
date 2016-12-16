@@ -14,6 +14,6 @@ int main(){
       printf("\n");
     }
     
-  }while(num<1 && num>20);
+  }while (num<1 || num>20);
   return 0;
   }
