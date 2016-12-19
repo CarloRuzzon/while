@@ -4,16 +4,16 @@ int main(){
   do{
     printf("Inserire un numero da 1 a 20:");
     scanf("%d", &num);
+  }while(num<1 || num>20);
     while(b<num){
       a=0;
-      while(a<num){
-        printf("*");
-        a++;
-      }
+    while(a<num){
+      printf("*");
+      a++;
+    }
       b++;
       printf("\n");
     }
     
-  }while(num<1 && num>20);
   return 0;
   }
