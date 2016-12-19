@@ -15,9 +15,6 @@ int main(){
       printf("\n");
     }
     
-<<<<<<< HEAD
-=======
-  }while (num<1 || num>20);
->>>>>>> 7a382a80991160deda258663975ab209b24e0d24
+
   return 0;
   }
